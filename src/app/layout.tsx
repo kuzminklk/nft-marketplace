@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import "./globals.css"
 import Header from "@/components/Header"
-import { type ReactNode, useEffect, useState } from "react"
+import { type ReactNode/* , useEffect, useState */ } from "react"
 import { Providers } from "./providers"
 import { useAccount } from "wagmi"
 
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout(props: { children: ReactNode }) {
 
-	const [isApproved, setIsApproved] = useState(false)
+/* 	const [isApproved, setIsApproved] = useState(false)
 
 	const { address } = useAccount()
 
@@ -34,7 +34,7 @@ export default function RootLayout(props: { children: ReactNode }) {
 
 	useEffect(() => {
 		if (address) { checkCompliance() }
-	}, [address])
+	}, [address]) */
 
 
 	return (
@@ -45,11 +45,12 @@ export default function RootLayout(props: { children: ReactNode }) {
 			<body className="bg-zinc-50">
 				<Providers>
 					<Header />
-					{ 
+					{/* { 
 					isApproved ? 
 						props.children : 
 						<h1>Access denied</h1>
-					}	
+					}	 */}
+					{ props.children }
 				</Providers>
 			</body>
 		</html>
