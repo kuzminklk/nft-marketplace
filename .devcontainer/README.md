@@ -15,24 +15,26 @@ Ensure the following tools are installed on your host machine before using the d
 ## Getting Started
 
 1. **Clone the Repository**
-    ```bash
-    git clone https://github.com/cyfrin/ts-nft-marketplace-cu
-    ```
+
+   ```bash
+   git clone https://github.com/cyfrin/ts-nft-marketplace-cu
+   ```
 
 2. **Open in VS Code**
-    - Launch VS Code.
-    - Open the cloned project folder.
+   - Launch VS Code.
+   - Open the cloned project folder.
 
 3. **Open in Dev Container**
-    - Press `F1` (or `Cmd + Shift + P` on macOS).
-    - Select `Dev Containers: Reopen in Container`.
-    - VS Code will build the container and open the workspace inside it.
+   - Press `F1` (or `Cmd + Shift + P` on macOS).
+   - Select `Dev Containers: Reopen in Container`.
+   - VS Code will build the container and open the workspace inside it.
 
 ## Notes
 
 - When running the local Anvil blockchain, **you must make it accessible to the host machine**.
-  
+
   Use the following command instead of the default:
+
   ```bash
   pnpm anvil --host 0.0.0.0
   ```
