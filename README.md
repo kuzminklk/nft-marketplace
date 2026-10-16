@@ -10,7 +10,14 @@ Part of Full-stack Web 3 course from Cyfrin Updraft and as submodule in [appropr
 
 ### Technologies
 
-Next.js, viem, rindexer, Circle Compliance Engine
+Development: Visual Studio Code  
+Markup languages: HTML, CSS  
+Programming language: JavaScript  
+Framework: React → Next.js  
+Blockchain events: rindexer  
+Libraries: Viem  
+Other: Circle Compliance Engine  
+Formatting: “.editorconfig”, “.vscode/…”, Foundry, Prettier
 
 ## State
 
